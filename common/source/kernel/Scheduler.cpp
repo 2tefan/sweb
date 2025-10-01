@@ -183,6 +183,11 @@ void Scheduler::incTicks()
   ++ticks_;
 }
 
+uint32 Scheduler::getThreadCount()
+{
+  return threads_.size();
+}
+
 void Scheduler::printStackTraces()
 {
   lockScheduling();

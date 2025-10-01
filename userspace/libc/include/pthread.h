@@ -60,4 +60,5 @@ extern int pthread_setcanceltype(int type, int *oldtype);
 }
 #endif
 
+extern int get_thread_count(void);
 
