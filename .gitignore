@@ -22,6 +22,8 @@ sweb.kdev*
 .cdtbuild
 .idea
 cmake-build-*/*
+compile_commands.json
+.cache/
 
 # OS-specific files
 *.DS_Store
