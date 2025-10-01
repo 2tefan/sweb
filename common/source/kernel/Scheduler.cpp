@@ -1,5 +1,6 @@
 #include "Scheduler.h"
 #include "Thread.h"
+#include "debug.h"
 #include "panic.h"
 #include "ArchThreads.h"
 #include "ArchCommon.h"
@@ -185,6 +186,8 @@ void Scheduler::incTicks()
 
 uint32 Scheduler::getThreadCount()
 {
+  // uint32 test_value = 42; 
+  // debug(SEMAPHORE, "Telling you the answer: %d\n", test_value);
   return threads_.size();
 }
 
